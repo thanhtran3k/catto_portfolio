@@ -1,0 +1,52 @@
+<form method="post" action="/admin/edit/{{cateportfolio.id}}" enctype="multipart/form-data">
+
+  
+  	<h1>Edit this project</h1>
+    <div>
+      <label>Title
+        <input type="text" placeholder="Title" name="title" value="{{cateportfolio.title}}"/>
+      </label>
+    </div>
+
+    <div>
+      <label>Service
+        <input type="text" placeholder="Service" name="service" value="{{cateportfolio.service}}"/>
+      </label>
+    </div>
+
+    <div>
+      <label>Client
+        <input type="text" placeholder="Client" name="client" value="{{cateportfolio.client}}"/>
+      </label>
+    </div>
+
+    <div>
+      <label>Description
+        <textarea placeholder="Description" name="description">{{cateportfolio.description}}</textarea>
+      </label>
+    </div>
+
+    <div>
+      <label>Project URL
+        <input type="text" placeholder="Project URL" name="url" value="{{cateportfolio.url}}"/>
+      </label>
+    </div>
+
+    <div>
+      <label>Project Date
+        <input type="date" name="projectdate" value="{{cateportfolio.date}}"/>
+      </label>
+    </div>
+
+    <div>
+      <label>Image
+        <input type="file" placeholder="Image" name="projectimage" value="{{cateportfolio.image}}"/>
+      </label>
+    </div>
+
+    <div>
+    	<button type="submit" class="button success">Submit</button>
+      <a href="/admin" class="button default">Cancel</a>
+    </div>
+  
+</form>

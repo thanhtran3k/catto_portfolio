@@ -1,0 +1,40 @@
+{{#if success_msg}}
+	<div class="alert-box-success">{{success_msg}}</div>
+{{/if}}
+
+{{#if error}}
+	<div class="alert-box-alert">{{error}}</div>
+{{/if}}
+
+<a href="/" class="button default">Home Page</a>
+<a href="/admin/add" class="button success">Add</a>
+
+{{#if cateportfolio}}
+	<table class="admin-table">
+		<tr>
+			<th>Image</th>
+			<th>ID</th>
+			<th>Title</th>
+			<th>Service</th>
+			<th>Action</th>
+			<th></th>
+		<tr>
+
+	{{#each cateportfolio}}
+		<tr>
+			<td><img class="small-img" src="/images/portfolio/{{image}}"></td>
+			<td>{{id}}</td>
+			<td>{{title}}</td>
+			<td>{{service}}</td>
+			<td><a href="/admin/edit/{{id}}" class="button default">Edit</a></td>
+			<td><a href="/admin/delete/{{id}}" data-id="{{id}}" class="button alert delete-button">Delete</a></td>
+		<tr>
+	{{/each}}
+	</table>
+
+{{else}}
+	<div class="column">
+		<p>There is nothing here.</p>
+	</div>
+
+{{/if}}
