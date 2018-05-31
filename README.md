@@ -14,7 +14,7 @@
 
 5. You have to set a password to your root user. To do that you just find the "User accounts" tab and find the row where the user name is "root" and host name is "localhost". The first time you see it the password will be "No". Click on "Edit privileges" => Change password => Enter your password and click "Go". 
 
-6. You gonna be booted out the system. Open the folder where you installed XAMPP. 
+6. You gonna be booted out the system. Open the folder where you installed XAMPP.
 
 7.Go to phpMyAdmin folder, find the "config.inc.php" and simply put your password in the 
 
