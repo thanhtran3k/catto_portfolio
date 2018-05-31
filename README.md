@@ -36,4 +36,4 @@ var connection = mysql.createConnection({
 Then you good to go.
 
 # Notes
-The contact form is not working. I just make it to contain the admin area page. I will do it in the future (If i have free time of course lul).
+The contact form is not working. I just make it to contain the admin area page. You can re-use my catto_contact.
