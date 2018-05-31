@@ -16,7 +16,7 @@
 
 6. You gonna be booted out the system. Open the folder where you installed XAMPP.
 
-7.Go to phpMyAdmin folder, find the "config.inc.php" and simply put your password in the
+7. Go to phpMyAdmin folder, find the "config.inc.php" and simply put your password in the
 
 - "$cfg['Servers'][$i]['password'] = 'yourpassword';" line.
 
