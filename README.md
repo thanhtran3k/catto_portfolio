@@ -1,5 +1,7 @@
 # catto_portfolio
-catto_portfolio is a basic portfolio, CRUD(Create, read, update, delete) website. I used NodeJS, Express for the back-end, Handlebars view engine and Foundation library for the front-end and MySQL as database.
+- catto_portfolio is a basic portfolio, CRUD(Create, read, update, delete) website. 
+
+- I used NodeJS, Express for the back-end, Handlebars view engine and Foundation library for the front-end and MySQL as database.
 
 # Quick start
 1. Download my project to your pc.
