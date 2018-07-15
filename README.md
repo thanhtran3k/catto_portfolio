@@ -1,12 +1,12 @@
 # catto_portfolio
 - Catto Portfolio is a basic portfolio website. 
-- Just a CRUD(Create, read, update, delete) app.
+- CRUD(Create, read, update, delete) app.
 - I used NodeJS, Express for the back-end, Handlebars view engine and Foundation library for the front-end and MySQL as database.
 
 # Quick start
 1. Download my project to your pc.
 
-2. Download XAMPP from this link https://www.apachefriends.org/index.html. I recommend the latest version of XAMPP.
+2. Download latest version of XAMPP from this https://www.apachefriends.org/index.html.
 
 3. Open XAMPP then start Apache and MySQL services. Wait a minute for them to start. Check the console lines to know if they are running.
 
@@ -36,4 +36,4 @@ var connection = mysql.createConnection({
 Then you good to go.
 
 # Notes
-The contact form is not working. I just make it to contain the admin area page. You can re-use my catto_contact.
+The contact form is not working. You can re-use my catto_contact.
